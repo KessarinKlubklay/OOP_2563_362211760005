@@ -11,8 +11,5 @@ public class Exercise_STD_Profile {
         System.out.print("Enter integer: ");
         int x = Integer.parseInt(sc.nextLine());
 
-
-
-
     }
 }

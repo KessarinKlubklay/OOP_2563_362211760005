@@ -1,5 +1,6 @@
 package LAB7;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CarApp {
@@ -15,6 +16,9 @@ public class CarApp {
         
         c1 = inputDataObject(c1);
         System.out.println(c1.toString());
+
+        //store object Arraylist
+        ArrayList<Car> myCar = new ArrayList<Car>();
     }
 
     private static Car inputDataObject(Car c) {

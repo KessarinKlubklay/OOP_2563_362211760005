@@ -12,17 +12,16 @@ public class CarApp2 {
         int num = sc.nextInt();
 
         ArrayList<Car>myCar = new ArrayList<Car>();
-
         for (int i = 0; i < num; i++){
-            //input
+            //input data to Object
             System.out.println("Please,enter car info"+(i+1)+": ");
             Car c = inputDataObject();
             myCar.add(c);
         }
       displayObject(myCar);
-    }
+    }//main
 
-    private static void displayObject(ArrayList<Car> myCar) {
+    public static void displayObject(ArrayList<Car> myCar) {
         System.out.println("All object in ArrayList : ");
         for (Car c : myCar){
             System.out.println(c.toString());
